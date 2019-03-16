@@ -1,0 +1,31 @@
+Little doc to explain how this works:
+
+---------------------------------------------------------------------------------
+Files & Folders:
+- data: is the folder containing the data on which we will train this model. It is organized in a bunch of folders, one folder per person. 
+- data_test: contains the extra images that we use to test our system after it is trained.
+- detector: contains the weights and architecture of the caffe model for the face detector, see later in pipeline.
+- embedder: contains the weights and architecture of the torch model for the embeddor, see later in pipeline.
+- FaceRec.py main file 
+
+---------------------------------------------------------------------------------
+Pipeline architecture: 3 models
+
+1) apply the detector which localizes the face on the photos from the training set. We will use a pretrained Caffe DL model named res10_300x300_ssd_iter_140000. As its name indicates it is inspired by ResNet-10, trained with the SSD framework.
+
+2) run the result through a CNN and extract 128 features as the last layer. We will use a pretrained model in Torch named OpenFace. It is an open imitation of the FaceNet model, you can find more information here: https://cmusatyalab.github.io/openface/
+
+3) input these features in an SVM which will be trained with this data.
+
+4) run the trained SVM to output a label
+
+---------------------------------------------------------------------------------
+Pipeline details: the indexing agrees with the architecture
+
+1) this part is done by running extract_embeddings.py. We first standardize a bit the image by creating a blob for the image and then pass it through a detector to localize a face. The detector is a pretrained Caffe DL model which is loaded from the face_detection_model folder. If a face is detected with high enough confidence (if there are more, keep the one with highest confidence), we label it with the name of the folder in which it belongs. 
+
+2) we continue the script from extract_embeddings.py. We then pass the blob through the embeddor, a trained CNN and extract the face embeddings from the last layer, a 128-D vector. This CNN is a pretrained model with Torch, and is save in the file openface_nn4.small2.v1.t7. We then serialize all this data and save it in output/my_emb.pickle.
+
+3) this part is done in train_model.py. We load the 128-D embedding data from output/my_emb.pickle and feed it through a recognizer, here a SVM model in scikit. We also use a label encoder to label the names of the loaded data. After this we save the model in output/my_rec.pickle and the label encoder in output/le.pickle.
+
+4) this part is done in recognize.py. We input an image, do the same preprocessing as we did in part 1) with the blob, run it through the detector (the Caffee model), then through the embeddor (the Torch model), then through the recognizer, which is the SVM we just trained, and then extract the most confident label.
