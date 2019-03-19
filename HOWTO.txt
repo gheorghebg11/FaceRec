@@ -22,10 +22,10 @@ Pipeline architecture: 3 models
 ---------------------------------------------------------------------------------
 Pipeline details: the indexing agrees with the architecture
 
-1) this part is done by running extract_embeddings.py. We first standardize a bit the image by creating a blob for the image and then pass it through a detector to localize a face. The detector is a pretrained Caffe DL model which is loaded from the face_detection_model folder. If a face is detected with high enough confidence (if there are more, keep the one with highest confidence), we label it with the name of the folder in which it belongs. 
+1) We first standardize a bit the image by creating a blob for the image and then pass it through a detector to localize a face. The detector is a pretrained Caffe DL model which is loaded from the face_detection_model folder. If a face is detected with high enough confidence (if there are more, keep the one with highest confidence), we label it with the name of the folder in which it belongs. 
 
-2) we continue the script from extract_embeddings.py. We then pass the blob through the embeddor, a trained CNN and extract the face embeddings from the last layer, a 128-D vector. This CNN is a pretrained model with Torch, and is save in the file openface_nn4.small2.v1.t7. We then serialize all this data and save it in output/my_emb.pickle.
+2) We then pass the blob through the embeddor, a trained CNN and extract the face embeddings from the last layer, a 128-D vector. This CNN is a pretrained model with Torch, and is save in the file openface_nn4.small2.v1.t7. 
 
-3) this part is done in train_model.py. We load the 128-D embedding data from output/my_emb.pickle and feed it through a recognizer, here a SVM model in scikit. We also use a label encoder to label the names of the loaded data. After this we save the model in output/my_rec.pickle and the label encoder in output/le.pickle.
+3) We feed the 128-D embedding through a recognizer, here a SVM model in scikit that we train with our small data input
 
-4) this part is done in recognize.py. We input an image, do the same preprocessing as we did in part 1) with the blob, run it through the detector (the Caffee model), then through the embeddor (the Torch model), then through the recognizer, which is the SVM we just trained, and then extract the most confident label.
+4) We input an image, do the same preprocessing as we did in part 1) with the blob, run it through the detector (the Caffee model), then through the embeddor (the Torch model), then through the recognizer, which is the SVM we just trained, and then extract the most confident label.
