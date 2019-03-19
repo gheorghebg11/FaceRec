@@ -4,7 +4,9 @@
       <w>caffe</w>
       <w>encodding</w>
       <w>inputing</w>
+      <w>preds</w>
       <w>pretrained</w>
+      <w>proba</w>
     </words>
   </dictionary>
 </component>

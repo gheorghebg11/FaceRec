@@ -1,11 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/FaceRec.py" line="126" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="94230c4a-5bc1-4e7f-a99f-d23c54f339f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/gheor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/gheor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FaceRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceRec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOWTO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HOWTO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/christa/IMG_E1798.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bogdan/IMG_20181202_194703684.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/bogdan/IMG_20181202_194703684.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bogdan/IMG_20181203_120703110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bogdan/profil44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/bogdan/profil44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bogdan/received_10155340661284537.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/data/bogdan/received_10155340661284537.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/37293334_10155711199239537_4399042269206806528_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/christa/37293334_10155711199239537_4399042269206806528_o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/49895459_10156085687644537_7158190330297188352_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/christa/49895459_10156085687644537_7158190330297188352_o.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/53220402_10215848905069573_5284675310304886784_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_1386.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_1822.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/data/christa/IMG_1822.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_20180508_142554.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_20180509_105118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_20180921_161824.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/christa/IMG_20180921_161824.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_20181110_122959760.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/christa/IMG_20181110_122959760.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_20190103_160158436.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/christa/IMG_20190103_160158436.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/IMG_20190107_133508389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/christa/received_10155564433659537.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/00005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/IMG_1705.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/alan_grant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/claire_dearing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/ellie_sattler.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/face-stg-1-mob.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/ian_malcolm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/images (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/images (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/john_hammond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/own_grady.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-1009904.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-1024311.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-1065084.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-1239288.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-1649056.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-227294.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-415829.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-542282.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-732425.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-762020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/pexels-photo-769772.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/photo-1438761681033-6461ffad8d80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/photo-1472099645785-5658abf4ff4e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/photo-1509967419530-da38b4704bc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/photo-1513732822839-24f03a92f633.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/unknown/received_10155467940039537.jpeg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FaceRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="153" selection-start-line="153" selection-end-line="153" />
+            <state relative-caret-position="514">
+              <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -29,6 +78,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>detections_to_encodding</find>
+      <find>min_con</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,12 +116,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,14 +186,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29252437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -191,15 +240,15 @@
     <entry file="file://$PROJECT_DIR$/train_NN.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/sklearn/svm/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="15">
           <caret line="591" column="8" selection-start-line="591" selection-start-column="8" selection-end-line="591" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FaceRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="514">
+          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
         </state>
       </provider>
     </entry>
